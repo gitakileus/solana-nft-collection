@@ -147,3 +147,4 @@ mp-update-date: ## Update the date of the candy machine (date is hardcoded!!).
 .PHONY: mp-clear-cache
 mp-clear-cache: ## This needs to be done if you want to update your NFTs! Then run upload, verify, create, update and update your .env file.
 	rm -r .cache/
+	
